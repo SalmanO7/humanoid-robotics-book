@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://salmano7.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/book/',
+  baseUrl: '/humanoid-robotics-book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-organization', // Usually your GitHub org/user name.
-  projectName: 'book', // Usually your repo name.
+  organizationName: 'SalmanO7', // Usually your GitHub org/user name.
+  projectName: 'humanoid-robotics-book', // Usually your repo name.
   deploymentBranch: 'gh-pages', // Branch that GitHub Pages will deploy from.
 
   onBrokenLinks: 'warn', // Changed from 'throw' to 'warn' to allow build to continue
@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-organization/book/tree/main/',
+            'https://github.com/SalmanO7/humanoid-robotics-book/tree/main/',
         },
         blog: false, // Disable blog if not needed
         theme: {
@@ -62,7 +62,7 @@ const config = {
         {name: 'og:title', content: 'Physical AI & Humanoid Robotics - Complete Guide'},
         {name: 'og:description', content: 'Learn about humanoid robotics, AI integration, kinematics, dynamics, and practical implementation.'},
         {name: 'og:type', content: 'website'},
-        {name: 'og:url', content: 'https://your-username.github.io/book/'},
+        {name: 'og:url', content: 'https://salmano7.github.io/humanoid-robotics-book/'},
       ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.svg',
@@ -71,7 +71,7 @@ const config = {
         logo: {
           alt: 'Robotics Book Logo',
           src: 'img/logo.svg',
-          href: '/book/docs/intro', // Add a proper link to intro instead of defaulting to baseUrl
+          href: '/humanoid-robotics-book/docs/intro', // Add a proper link to intro instead of defaulting to baseUrl
         },
         items: [
           {
@@ -81,7 +81,7 @@ const config = {
             label: 'Book',
           },
           {
-            href: 'https://github.com/your-organization/book',
+            href: 'https://github.com/SalmanO7/humanoid-robotics-book',
             label: 'GitHub',
             position: 'right',
           },
@@ -95,15 +95,15 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/intro',
+                to: '/humanoid-robotics-book/docs/intro',
               },
               {
                 label: 'Fundamentals',
-                to: '/docs/fundamentals/kinematics', // Changed to point to a specific doc instead of category
+                to: '/humanoid-robotics-book/docs/fundamentals/kinematics',
               },
               {
                 label: 'Sensors & Actuators',
-                to: '/docs/sensors-actuators/sensors', // Changed to point to a specific doc instead of category
+                to: '/humanoid-robotics-book/docs/sensors-actuators/sensors',
               },
             ],
           },
@@ -125,7 +125,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-organization/book',
+                href: 'https://github.com/SalmanO7/humanoid-robotics-book',
               },
             ],
           },
