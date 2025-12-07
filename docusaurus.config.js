@@ -71,7 +71,7 @@ const config = {
         logo: {
           alt: 'Robotics Book Logo',
           src: 'img/logo.svg',
-          href: '/humanoid-robotics-book/docs/intro', // Add a proper link to intro instead of defaulting to baseUrl
+          href: '/docs/intro', // Point to intro page instead of root
         },
         items: [
           {
@@ -95,15 +95,15 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/humanoid-robotics-book/docs/intro',
+                to: '/docs/intro',
               },
               {
                 label: 'Fundamentals',
-                to: '/humanoid-robotics-book/docs/fundamentals/kinematics',
+                to: '/docs/fundamentals/kinematics',
               },
               {
                 label: 'Sensors & Actuators',
-                to: '/humanoid-robotics-book/docs/sensors-actuators/sensors',
+                to: '/docs/sensors-actuators/sensors',
               },
             ],
           },
