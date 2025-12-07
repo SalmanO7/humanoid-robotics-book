@@ -11,16 +11,16 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://salmano7.github.io',
+  url: 'https://humanoid-robotics-book-6idy8fzn9.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/humanoid-robotics-book/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'SalmanO7', // Usually your GitHub org/user name.
-  projectName: 'humanoid-robotics-book', // Usually your repo name.
-  deploymentBranch: 'gh-pages', // Branch that GitHub Pages will deploy from.
+  // organizationName: 'SalmanO7', // Usually your GitHub org/user name.
+  // projectName: 'humanoid-robotics-book', // Usually your repo name.
+  // deploymentBranch: 'gh-pages', // Branch that GitHub Pages will deploy from.
 
   onBrokenLinks: 'warn', // Changed from 'throw' to 'warn' to allow build to continue
   onBrokenMarkdownLinks: 'warn',
