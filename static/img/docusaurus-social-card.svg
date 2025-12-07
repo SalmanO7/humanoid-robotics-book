@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#25c2a0"/>
+  <text x="640" y="320" font-family="Arial" font-size="48" text-anchor="middle" fill="white">Physical AI & Humanoid Robotics</text>
+  <text x="640" y="380" font-family="Arial" font-size="24" text-anchor="middle" fill="white">A Comprehensive Guide to Building Humanoid Robots with Artificial Intelligence</text>
+</svg>
